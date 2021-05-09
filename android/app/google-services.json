@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56649293634",
+    "project_id": "merpati-3420e",
+    "storage_bucket": "merpati-3420e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56649293634:android:aa6902fceade6fc8e532db",
+        "android_client_info": {
+          "package_name": "com.indotransweb.merpati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56649293634-1e5sd1ni4vuk27k7t60qd46ckhku4gir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0adiG8-ZSPcNMVFNw31ZOvyx5BJrndE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56649293634-1e5sd1ni4vuk27k7t60qd46ckhku4gir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
