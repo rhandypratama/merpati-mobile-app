@@ -21,8 +21,8 @@ class LogoGraphicHeader extends StatelessWidget {
             child: Image.asset(
               _imageLogo,
               fit: BoxFit.cover,
-              width: 120.0,
-              height: 120.0,
+              width: 80.0,
+              height: 80.0,
             ),
           )),
     );

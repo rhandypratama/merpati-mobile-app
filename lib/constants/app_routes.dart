@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:mprj/home.dart';
 import 'package:mprj/settings.dart';
-import 'package:mprj/sign_in.dart';
+import 'package:mprj/ui/auth/sign_in.dart';
 import 'package:mprj/splash.dart';
 
 class AppRoutes {

@@ -11,7 +11,7 @@ import 'package:mprj/components/components.dart';
 import 'package:mprj/helpers/helpers.dart';
 import 'package:mprj/home.dart';
 import 'package:mprj/models/models.dart';
-import 'package:mprj/sign_in.dart';
+import 'package:mprj/ui/auth/sign_in.dart';
 
 class AuthController extends GetxController {
   static AuthController to = Get.find();

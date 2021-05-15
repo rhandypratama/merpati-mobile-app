@@ -16,15 +16,15 @@ class Avatar extends StatelessWidget {
     return Hero(
       tag: 'User Avatar Image',
       child: CircleAvatar(
-          foregroundColor: Colors.blue,
-          backgroundColor: Colors.white,
-          radius: 70.0,
+          // foregroundColor: Colors.blue,
+          backgroundColor: Colors.black12,
+          radius: 46.0,
           child: ClipOval(
             child: Image.network(
               user.photoUrl,
               fit: BoxFit.cover,
-              width: 120.0,
-              height: 120.0,
+              width: 80.0,
+              height: 80.0,
             ),
           )),
     );

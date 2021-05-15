@@ -4,6 +4,7 @@ class Localization extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         'en': {
+          'auth.signSubTitle': 'With sign in you can access all your pigeon data and whatever you want',
           'auth.signInButton': 'Sign In',
           'auth.signUpButton': 'Sign Up',
           'auth.resetPasswordButton': 'Send Password Reset',
@@ -61,6 +62,7 @@ class Localization extends Translations {
               'Please enter a number i.e. 250 - no dollar symbol and no cents',
         },
         'fr': {
+          'auth.signSubTitle': 'not yet',
           'auth.signInButton': 'S\'identifier',
           'auth.signUpButton': 'S\'inscrire',
           'auth.resetPasswordButton': 'Envoyer Password Reset',
@@ -124,6 +126,7 @@ class Localization extends Translations {
               'S\'il vous plaît entrer un numéro à savoir 250 - aucun symbole du dollar et pas cents',
         },
         'es': {
+          'auth.signSubTitle': 'not yet',
           'auth.signInButton': 'Iniciar sesión',
           'auth.signUpButton': 'Inscribirse',
           'auth.resetPasswordButton': 'Enviar restablecimiento de contraseña',
@@ -186,6 +189,7 @@ class Localization extends Translations {
               'Por favor, introduzca un número, es decir 250 - ningún símbolo del dólar y sin centavos',
         },
         'de': {
+          'auth.signSubTitle': 'not yet',
           'auth.signInButton': 'Einloggen',
           'auth.signUpButton': 'Anmeldung',
           'auth.resetPasswordButton': 'Senden Passwort zurücksetzen',
@@ -246,6 +250,7 @@ class Localization extends Translations {
               'Bitte geben Sie eine Zahl das heißt 250 - kein Dollar-Symbol und keinen Cent',
         },
         'hi': {
+          'auth.signSubTitle': 'दाखिल करना',
           'auth.signInButton': 'दाखिल करना',
           'auth.signUpButton': 'साइन अप करें',
           'auth.resetPasswordButton': 'भेजें पासवर्ड रीसेट',
@@ -302,6 +307,7 @@ class Localization extends Translations {
               'कोई डॉलर प्रतीक और कोई सेंट - एक नंबर अर्थात 250 दर्ज करें',
         },
         'pt': {
+          'auth.signSubTitle': 'Entrar',
           'auth.signInButton': 'Entrar',
           'auth.signUpButton': 'Inscrever-se',
           'auth.resetPasswordButton': 'Enviar Password Reset',
@@ -359,6 +365,7 @@ class Localization extends Translations {
               'Por favor insira um número ou seja 250 - nenhum símbolo dólar e há centavos',
         },
         'zh': {
+          'auth.signSubTitle': '登入',
           'auth.signInButton': '登入',
           'auth.signUpButton': '报名',
           'auth.resetPasswordButton': '发送密码重置',
@@ -411,6 +418,7 @@ class Localization extends Translations {
           'validator.amount': '请输入一个数，即250  - 没有美元符号和无分',
         },
         'ja': {
+          'auth.signSubTitle': 'サインイン',
           'auth.signInButton': 'サインイン',
           'auth.signUpButton': 'サインアップ',
           'auth.resetPasswordButton': '送信パスワードリセット',
@@ -464,6 +472,7 @@ class Localization extends Translations {
           'validator.amount': 'ノードル記号なしセント - すなわち、250番号を入力してください。',
         },
         'ru': {
+          'auth.signSubTitle': 'Войти',
           'auth.signInButton': 'Войти',
           'auth.signUpButton': 'Зарегистрироваться',
           'auth.resetPasswordButton': 'Отправить Сброс пароля',

@@ -1,23 +1,20 @@
 import 'package:flutter/material.dart';
-// import 'package:merpati/utils/widget-model.dart';
+import 'package:mprj/constants/app_themes.dart';
+import 'package:mprj/components/widget-model.dart';
 
 class CustomButton extends StatelessWidget {
   final Color color;
   final Color textColor;
   final String text;
-  final Widget image;
+  final Widget? image;
   final VoidCallback onPressed;
-  // double kPaddingS;
-  // double kPaddingM;
 
-  CustomButton({
+  const CustomButton({
     required this.color,
     required this.textColor,
     required this.text,
     required this.onPressed,
-    required this.image,
-    // required this.kPaddingM,
-    // required this.kPaddingS,
+    this.image,
   })  : assert(color != null),
         assert(textColor != null),
         assert(text != null),
@@ -39,23 +36,21 @@ class CustomButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.only(right: 16, top: 8, bottom: 8),
+                    padding: const EdgeInsets.only(right: AppThemes.kPaddingM, top: AppThemes.kPaddingS, bottom: AppThemes.kPaddingS),
                     child: image,
                   ),
-                  // dynamicText(text, fontSize: 14, color: textColor, fontWeight: FontWeight.bold)
-                  Text(text)
+                  dynamicText(text, fontSize: 16, color: textColor, fontWeight: FontWeight.normal)
                 ],
               ),
               onPressed: onPressed,
             )
           : FlatButton(
               color: color,
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.all(AppThemes.kPaddingM),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8.0),
               ),
-              // child: dynamicText(text, fontSize: 14, color: textColor, fontWeight: FontWeight.bold),
-              child: Text(text),
+              child: dynamicText(text, fontSize: 16, color: textColor, fontWeight: FontWeight.bold),
               onPressed: onPressed,
             ),
     );
